@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/Mel-Main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+       
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class=" p-4 yellow">
+                        <h5 class="text-white h4">Collapsed content</h5>
+                        <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+                    </div>
+                </div>
+                <nav class="navbar yellow">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler bg-white m-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid blue">
+        <div class="row pb-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h1 class="text-center text-white pt-4">Dashboard</h1>
+                <p class="border border-white w-25 mx-auto mb-5"></p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid lightblue">
+        <div class="row">
+            <div class="col-md-3 YuGiOhPrices">
+                <canvas class="my-chart">
+                    <!-- chart -->
+                </canvas>
+            </div>
+            <div class="col-md-3">
+                <canvas class="my-second-chart"> </canvas>
+            </div>
+            <div class="col-md-3">
+                <canvas class="my-thirth-chart"> </canvas>
+            </div>
+            <div class="col-md-3">
+                <canvas class="my-forth-chart"> </canvas>
+            </div>
+            <div class="col-md-3">
+                <canvas class="my-fifth-chart"> </canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 defense"></div>
+            <div class="col-md-6 attack"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>

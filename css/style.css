@@ -1,0 +1,32 @@
+.yellow{
+    background-color: #fcec52;
+}
+
+.blue{
+    background-color: #314cb6;
+}
+
+.lightblue{
+    background-color: #c5d5ea;
+}
+
+.text-yellow{
+    color: #fcec52;
+}
+
+.text-blue{
+    color: #314cb6;
+}
+
+.text-lightblue{
+    color: #c5d5ea;
+}
+
+.btn-hover:hover{
+    background-color: #314cb6;
+    color: white;
+}
+
+.hidden{
+    display:none;
+}
